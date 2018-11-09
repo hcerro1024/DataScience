@@ -1,0 +1,5 @@
+## Sets my Working Directory
+setmywd <- function() {
+  setwd("~/Varen/Training/coursera/R Programming for Data Science")
+  print(c("Your Working Directory is: ", getwd()))
+}
